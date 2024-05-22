@@ -9,7 +9,7 @@ int main() {
     printf("Digite o valor: ");
     scanf("%f", &valor);
     
-    if (valor > 5000) 
+    if (valor > 5000) {
         valor_corrigido = valor * 1.10;
     } else {
         valor_corrigido = valor * 1.05;
